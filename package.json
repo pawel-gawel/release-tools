@@ -1,0 +1,19 @@
+{
+  "name": "release-tools",
+  "version": "1.0.0",
+  "description": "Implements my (at some point) preferred approach to version and release code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawel-gawel/release-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawel-gawel/release-tools/issues"
+  },
+  "homepage": "https://github.com/pawel-gawel/release-tools#readme"
+}
