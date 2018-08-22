@@ -20,7 +20,8 @@ Are you sure you want to continue [y/n]? " agreed
     printf "\n\tbye!\n\n"; exit
   fi
 
-  tag=$(npm version $1 | tr -d v)
+  npm version $1
+  tag=$(git describe --tags)
   
   git push
   git push origin $tag
