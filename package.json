@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "Implements my (at some point) preferred approach to version and release code.",
   "main": "index.js",
+  "bin": {
+    "release": "bin/release.sh"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
