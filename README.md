@@ -4,6 +4,16 @@ Implements my (at some point) preferred approach to version and release code.
 
 This is pretty good scaffolding for future projects.
 
+## Install
+
+When installed (globally or as a dev dependency), you have access to `release` command.
+
+To release new version of the repo you're currently working on, go with 
+
+```
+release [patch|minor|major]
+```
+
 ## Releasing
 
 Run with
