@@ -1,6 +1,6 @@
 {
   "name": "release-tools",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Implements my (at some point) preferred approach to version and release code.",
   "main": "index.js",
   "bin": {
